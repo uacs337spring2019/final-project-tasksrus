@@ -2,7 +2,7 @@
   "name": "final-project-tasksrus",
   "version": "1.0.0",
   "description": "CSC337 final project",
-  "main": "tasks.js",
+  "main": "backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "echo starting"
