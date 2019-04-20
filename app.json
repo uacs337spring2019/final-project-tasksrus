@@ -1,0 +1,7 @@
+{
+    "name": "tasksRus",
+    "description": "a tasklist manager",
+    "repository": "https://github.com/uacs337spring2019/final-project-tasksrus",
+    "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+    "keywords": ["node", "express", "static"]
+}

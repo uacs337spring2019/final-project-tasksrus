@@ -1,0 +1,50 @@
+
+body{
+    font-family: Helvettica, sans-serif;
+    background-color: lightgray;
+/*    height: 100vh;*/
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+#main{
+    margin: 0 10%;
+    background-color: antiquewhite;
+    min-height: 736px;
+    padding: 15px 10px;
+    overflow: hidden;
+    background-image: url(cork-board2.jpg);
+    background-size: 40%;
+    background-repeat: repeat;
+}
+
+.sticky-note {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: url(sticky-note.png);
+    background-position: -10px -10px;
+    background-size: 110%;
+    text-align: center;
+}
+
+.sticky-note h4 {
+    margin: 0;
+}
+
+.sticky-note:hover {
+    cursor: pointer;
+    filter: saturate(50%);
+}
+
+#add {
+    line-height: 200px;
+    font-size: 70px;
+    color: slategrey;
+}
