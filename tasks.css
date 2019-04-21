@@ -1,8 +1,13 @@
+/*
+* author: Erica Cohen
+* date: 04/21/19
+* class: CSC337 Spring 2019
+* tasks.css - for final project, make it look stylish
+*/
 
 body{
     font-family: Helvettica, sans-serif;
     background-color: lightgray;
-/*    height: 100vh;*/
     margin: 0;
 }
 
@@ -35,13 +40,15 @@ h2{
     line-height: 200px;
 }
 
-.sticky-note h4 {
+.sticky-note > span {
     margin: 0;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
     transform: rotate(-3deg);
     color: red;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .sticky-note:hover {
@@ -49,7 +56,7 @@ h2{
     filter: saturate(50%);
 }
 
-#add {
+.sticky-note#add > span {
     font-size: 70px;
 }
 
@@ -105,4 +112,17 @@ h2{
 
 .tasks > div {
     text-align: center;
+}
+
+i:hover {
+    cursor: pointer;
+    color: darkgray;
+}
+
+.controls {
+    text-align: right;
+}
+
+.controls > span {
+    padding: 5px;
 }

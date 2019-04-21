@@ -1,24 +1,31 @@
 <!DOCTYPE html>
+<!--
+* author: Erica Cohen
+* date: 04/21/19
+* class: CSC337 Spring 2019
+* index.html - for final project
+-->
 <html>
     <head>
         <title>TasksRus</title>
         <link rel="stylesheet" type="text/css" href="tasks.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div id="main">
             <h2>Your task list</h2>
             <div id="notes">
                 <span id="add" class="sticky-note">
-                    <h4>+</h4>
+                    <span>+</span>
                 </span>
             </div>
         </div>
         <div id="popup">
             <div id="popupcontent">
                 <div class="controls">
-                    <span id="save">save</span>
-                    <span id="delete">dlete</span>
-                    <span id="close">close</span>
+                    <span id="save"><i class="fa fa-floppy-o"></i></span>
+                    <span id="delete"><i class="fa fa-trash"></i></span>
+                    <span id="close"><i class="fa fa-close"></i></span>
                 </div>
                 <input id="name" type="text" maxlength="100"/>
                 <div class="tasks">
